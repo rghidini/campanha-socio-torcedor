@@ -20,14 +20,3 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
 
 ## Funcionalidades
 
-
-## Testes
-
-- **Testes unitários**
- - Utilizar os testes criados com jUnit.
-
-
-- **Teste de Carga**
- - Foi utilizado o [jMeter](http://jmeter.apache.org) para garantir o requisito não funcional de 100 requisições por segundos.
-
-![Teste com jMeter](http://fs1.directupload.net/images/XXXXXXX.png)

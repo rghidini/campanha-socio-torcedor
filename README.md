@@ -26,3 +26,23 @@ Projeto que fornece classes comuns entre as duas APIs campanha e socio-torcedor
 - [Maven](https://maven.apache.org/)
 - [jUnit](http://junit.org/junit4/)
 
+## Testes
+
+- **Testes unitários**
+ - Utilizar os testes criados com jUnit.
+
+ ![Teste com junit1](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/junit1.png)
+
+ ![Teste com junit2](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/junit2.png)
+
+
+- **Teste de Performance**
+ - Foi utilizado o [jMeter](http://jmeter.apache.org) para garantir o requisito não funcional de 100 requisições por segundos.
+
+![Teste com jMeter4](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/jmeter4.png)
+
+![Teste com jMeter1](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/jmeter1.png)
+
+![Teste com jMeter2](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/jmeter2.png)
+
+![Teste com jMeter3](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/jmeter3.png)
