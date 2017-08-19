@@ -2,42 +2,27 @@
 
 API para administrar os dados da Campanha e fornecer mecanismos para INCLUIR, CONSULTAR, ATUALIZAR e DELETAR.
 
+[Acesso ao Projeto](https://github.com/rraminelli/campanha-socio-torcedor/tree/master/campanha-service)
+
 # API Socio Torcedor (socio-torcedor-service)
 
 API para controlar o cadastro de Sócio Torcedor, consome os dados os dados da API campanha-service.
+
+[Acesso ao Projeto](https://github.com/rraminelli/campanha-socio-torcedor/tree/master/socio-torcedor-service)
 
 # ns-commons-model
 
 Projeto que fornece classes comuns entre as duas APIs campanha e socio-torcedor 
 
-#### Tecnologias
+[Acesso ao Projeto](https://github.com/rraminelli/campanha-socio-torcedor/tree/master/ns-commons-model)
 
-- Spring MVC
-- Spring Boot
-- Spring Data
-- Banco de dados MongoDB
-- jUnit
+## Tecnologias
 
-### Instalação
+- [Java 8](http://www.oracle.com/technetwork/pt/java/javase/documentation/index.html)
+- [Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+- [Spring Boot](https://projects.spring.io/spring-boot/)
+- [Spring Data](http://projects.spring.io/spring-data/)
+- [Banco de dados MongoDB](https://www.mongodb.com/)
+- [Maven](https://maven.apache.org/)
+- [jUnit](http://junit.org/junit4/)
 
-O projeto utiliza o banco de dados MongoDB, por isso é preciso ter este banco de dados instalado.
-
-As configurações do banco de dados e porta do servidor estão no arquivo application.properties.
-
-As APIs utilizam Sprint Boot com tomcat embarcado, portanto para executá-las é preciso utilizar as classes CampanhaApplication e SocioTorcedorApplication. 
-
-### Funcionalidades
-
-##### campanha-service
-
-##### socio-torcedor-service
-
-#### Testes
-
-##### Testes unitários
-
-Para utilizar é recomendado utilizar as classes de testes com jUnit.
-
-##### Teste de Carga
-
-Foi utilizado o jMeter para testar o requisito não funcional 100 acessos por segundos
