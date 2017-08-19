@@ -37,7 +37,7 @@ Projeto que fornece classes comuns entre as duas APIs campanha e socio-torcedor
 
 
 - **Teste de Performance**
- - Foi utilizado o [jMeter](http://jmeter.apache.org) para garantir o requisito não funcional de 100 requisições por segundos.
+ - Foi utilizado o [jMeter](http://jmeter.apache.org) para garantir o requisito não funcional de 100 requisições por segundo.
 
 ![Teste com jMeter4](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/jmeter4.png)
 
