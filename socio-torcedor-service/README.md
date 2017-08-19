@@ -1,43 +1,33 @@
-# API Campanha (campanha-service)
+# API Sócio Torcedor (campanha-service)
 
-API para administrar os dados da Campanha e fornecer mecanismos para INCLUIR, CONSULTAR, ATUALIZAR e DELETAR.
+API para cadastrar e validar os dados do Sócio Torcedor. Consome os dados da API [Campanha](https://github.com/rraminelli/campanha-socio-torcedor/tree/master/campanha-service) para listar as Campanhas cadastradas e solicitar relacionamentos Campanha x Sócio Torcedor através do Time do Coração selecionado.
 
-# API Socio Torcedor (socio-torcedor-service)
+Dependência: [ns-commons-model](https://github.com/rraminelli/campanha-socio-torcedor/tree/master/ns-commons-model) 
 
-API para controlar o cadastro de Sócio Torcedor, consome os dados os dados da API campanha-service.
+## Instalação
 
-# ns-commons-model
-
-Projeto que fornece classes comuns entre as duas APIs campanha e socio-torcedor 
-
-#### Tecnologias
-
-- Spring MVC
-- Spring Boot
-- Spring Data
-- Banco de dados MongoDB
-- jUnit
-
-### Instalação
-
-O projeto utiliza o banco de dados MongoDB, por isso é preciso ter este banco de dados instalado.
+O projeto utiliza o banco de dados [MongoDB](https://www.mongodb.com/download-center?ct=header#community), por isso é preciso ter este banco de dados instalado.
 
 As configurações do banco de dados e porta do servidor estão no arquivo application.properties.
 
-As APIs utilizam Sprint Boot com tomcat embarcado, portanto para executá-las é preciso utilizar as classes CampanhaApplication e SocioTorcedorApplication. 
+A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é preciso utilizar a classes SocioTorcedorApplication.
 
-### Funcionalidades
+	public class SocioTorcedorApplication {
+		public static void main(String[] args) {
+			SpringApplication.run(SocioTorcedorApplication.class, args);
+		}
+	} 
 
-##### campanha-service
+## Funcionalidades
 
-##### socio-torcedor-service
 
-#### Testes
+## Testes
 
-##### Testes unitários
+- **Testes unitários**
+ - Utilizar os testes criados com jUnit.
 
-Para utilizar é recomendado utilizar as classes de testes com jUnit.
 
-##### Teste de Carga
+- **Teste de Carga**
+ - Foi utilizado o [jMeter](http://jmeter.apache.org) para garantir o requisito não funcional de 100 requisições por segundos.
 
-Foi utilizado o jMeter para testar o requisito não funcional 100 acessos por segundos
+![Teste com jMeter](http://fs1.directupload.net/images/XXXXXXX.png)

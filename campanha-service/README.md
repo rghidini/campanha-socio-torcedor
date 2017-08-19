@@ -2,7 +2,7 @@
 
 API para administrar os dados da Campanha e fornecer mecanismos para INCLUIR, CONSULTAR, ATUALIZAR e DELETAR.
 
-Dependência: [ns-commons-model](https://github.com/rraminelli/campanha-socio-torcedor) 
+Dependência: [ns-commons-model](https://github.com/rraminelli/campanha-socio-torcedor/tree/master/ns-commons-model) 
 
 ## Instalação
 
@@ -24,11 +24,10 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
 ## Testes
 
 - **Testes unitários**
+ - Utilizar os testes criados com jUnit.
 
-Utilizar os testes criados com jUnit.
 
 - **Teste de Carga**
+ - Foi utilizado o [jMeter](http://jmeter.apache.org) para garantir o requisito não funcional de 100 requisições por segundos.
 
-Foi utilizado o [jMeter](http://jmeter.apache.org) para garantir o requisito não funcional de 100 requisições por segundos.
-
-[Teste com jMeter](http://fs1.directupload.net/images/XXXXXXX.png)
+![Teste com jMeter](http://fs1.directupload.net/images/XXXXXXX.png)
