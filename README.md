@@ -19,17 +19,18 @@ Projeto que fornece classes comuns entre as duas APIs campanha e socio-torcedor
 ## Tecnologias
 
 - [Java 8](http://www.oracle.com/technetwork/pt/java/javase/documentation/index.html)
-- [Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-- [Spring Boot](https://projects.spring.io/spring-boot/)
-- [Spring Data](http://projects.spring.io/spring-data/)
-- [Banco de dados MongoDB](https://www.mongodb.com/)
-- [Maven](https://maven.apache.org/)
-- [jUnit](http://junit.org/junit4/)
+- [Spring MVC](https://spring.io/guides/gs/serving-web-content)
+- [Spring Boot](https://projects.spring.io/spring-boot)
+- [Spring Data](http://projects.spring.io/spring-data)
+- [Banco de dados MongoDB](https://www.mongodb.com)
+- [Maven](https://maven.apache.org)
+- [jUnit](http://junit.org/junit4)
+- [Mockito](http://site.mockito.org)
 
 ## Testes
 
 - **Testes unitários**
- - Utilizar os testes criados com jUnit.
+ - Utilizar os testes criados com jUnit e Mockito.
 
  ![Teste com junit1](https://github.com/rraminelli/campanha-socio-torcedor/blob/master/test_jmeter/junit1.png)
 
