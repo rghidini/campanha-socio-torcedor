@@ -21,10 +21,13 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
 ## Funcionalidades
 
 - **Lista todas as campanhas ativas**
+
 	
 	GET http://localhost:8090/campanhas
 	
+	
 - **Insere uma nova campanha**
+
 	
 	POST http://localhost:8090/campanhas
 	
@@ -38,7 +41,9 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
         }
 	}
 	
+
 - **Atualiza os dados de uma campeão**
+
 	
 	PUT http://localhost:8090/campanhas/5997c384cc063915a83cb552
 	
@@ -53,23 +58,33 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
         }
 	}
 	
+	
 - **Busca os dados de uma campanha**
+	
 	
 	GET http://localhost:8090/campanhas/5997c384cc063915a83cb552	
 	
+	
 - **Exclui uma campanha**
+	
 	
 	DELETE http://localhost:8090/campanhas/5997c384cc063915a83cb552
 	
+	
 - **Busca os dados de um time**
+	
 	
 	GET http://localhost:8090/times/5997c383cc063915a83cb551
 	
+	
 - **Lista todos os times**
+	
 	
 	GET http://localhost:8090/times
 	
+	
 - **Insere um novo time**
+	
 	
 	POST http://localhost:8090/times
 	
@@ -77,10 +92,15 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
         "nome":"Nome do Time do Coração"
 	}
 	
+	
 - **Associa um socio com as campanhas ativas para o time do coração selecionado**
 
-	PUT /associa-socio-campanha/{idSocio}/{idTimeCoracao}
+
+	PUT http://localhost:8090/associa-socio-campanha/{idSocio}/{idTimeCoracao}
+
 	
 - **Recupera todas as campanhas relacionados com o sócio torcedor**
 
-	GET /campanhas/socio/{idSocio}
+
+	GET http://localhost:8090/campanhas/socio/{idSocio}
+	

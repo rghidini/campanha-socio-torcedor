@@ -21,19 +21,23 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
 ## Funcionalidades
 
 - **Verifica o status do cadastro do sócio torcedor**
-- Se sócio não cadastrado, retorna: "Socio Torcedor não encontrado".
-- Se sócio já cadastrado e com campanha relacionadas, retorna: "Socio Torcedor já cadastrado".
-- Se sócio já cadastrado mas sem campanhas relacionadas, retorma a lista de campanhas vigentes.
+	- Se sócio não cadastrado, retorna: "Socio Torcedor não encontrado".
+	- Se sócio já cadastrado e com campanha relacionadas, retorna: "Socio Torcedor já cadastrado".
+	- Se sócio já cadastrado mas sem campanhas relacionadas, retorma a lista de campanhas vigentes.
+
 
 	GET http://localhost:8091/socios/{email}
 
 
 - **Lista todos os sócios cadastrados**
+
 	
 	GET http://localhost:8091/socios
+
 	
 - **Insere um novo sócio torcedor e relaciona com as campanhas ativas para o time do coração selecionado**
-- Consome a API Campanha
+	- Consome a API Campanha
+
 	
 	POST http://localhost:8091/socios
 	
@@ -46,4 +50,5 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
             "id":"5997c383cc063915a83cb551"
         }
 	}
+	
 	
