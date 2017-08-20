@@ -22,7 +22,7 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
 
 - **Verifica o status do cadastro do sócio torcedor**
 	- Se sócio não cadastrado, retorna: "Socio Torcedor não encontrado".
-	- Se sócio já cadastrado e com campanha relacionadas, retorna: "Socio Torcedor já cadastrado".
+	- Se sócio já cadastrado e com campanhas relacionadas, retorna: "Socio Torcedor já cadastrado".
 	- Se sócio já cadastrado mas sem campanhas relacionadas, retorma a lista de campanhas vigentes.
 
 

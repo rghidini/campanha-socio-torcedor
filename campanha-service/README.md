@@ -45,7 +45,7 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
 - **Atualiza os dados de uma campeão**
 
 	
-	PUT http://localhost:8090/campanhas/5997c384cc063915a83cb552
+	PUT http://localhost:8090/campanhas/{idCampanha}
 	
 	{
 		"id": "5997c383cc063915a83cb551"
@@ -62,19 +62,19 @@ A API utiliza Sprint Boot com tomcat embarcado, portanto para executá-la é pre
 - **Busca os dados de uma campanha**
 	
 	
-	GET http://localhost:8090/campanhas/5997c384cc063915a83cb552	
+	GET http://localhost:8090/campanhas/{idCampanha}	
 	
 	
 - **Exclui uma campanha**
 	
 	
-	DELETE http://localhost:8090/campanhas/5997c384cc063915a83cb552
+	DELETE http://localhost:8090/campanhas/{idCampanha}
 	
 	
 - **Busca os dados de um time**
 	
 	
-	GET http://localhost:8090/times/5997c383cc063915a83cb551
+	GET http://localhost:8090/times/{idTime}
 	
 	
 - **Lista todos os times**
